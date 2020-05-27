@@ -1,3 +1,3 @@
 # WhatsApp-Web-Dark
 
-A chrome extension to make your WhatsApp Web open in dark mode.
+A chrome extension to enable dark mode in WhatsApp Web.
