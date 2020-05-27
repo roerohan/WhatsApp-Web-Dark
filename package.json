@@ -1,0 +1,31 @@
+{
+  "name": "whatsapp-web-dark",
+  "version": "1.0.0",
+  "description": "A chrome extension to enable dark mode in WhatsApp Web",
+  "main": "src/background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/*.js",
+    "lint:fix": "eslint src/*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roerohan/WhatsApp-Web-Dark.git"
+  },
+  "author": "Rohan Mukherjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roerohan/WhatsApp-Web-Dark/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "homepage": "https://github.com/roerohan/WhatsApp-Web-Dark#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
