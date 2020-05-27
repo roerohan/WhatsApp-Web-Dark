@@ -1,0 +1,19 @@
+{
+    "name": "WhatsApp Web Dark",
+    "version": "1.0",
+    "description": "A chrome extension to make your WhatsApp Web open in dark mode.",
+    "permissions": [
+        "activeTab",
+        "declarativeContent"
+    ],
+    "background": {
+        "scripts": [
+            "src/background.js"
+        ],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "src/popup.html"
+    },
+    "manifest_version": 2
+}
