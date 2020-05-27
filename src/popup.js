@@ -1,7 +1,7 @@
 const button = document.getElementById('changeColor');
 
 button.onclick = () => {
-    chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
         chrome.tabs.executeScript(
             tabs[0].id,
             {
